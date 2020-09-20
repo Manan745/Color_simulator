@@ -1,0 +1,82 @@
+<!doctype>
+<html>
+<head>
+<title>Color simulator</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="color.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="nav navbar-left" >
+<a href="#" target="_blank" class="navbar-brand">Color Code Simulator</a>
+</div>
+<div class="navbar-header navbar-right">
+<ul class="nav navbar-nav collapse navbar-collapse" id="myNavbar">
+<li><a href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank">RGB Color Model</a></li>
+<li><a href="https://www.rapidtables.com/web/color/RGB_Color.html" target="_blank">Color Codes</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="jumbotron fluid">
+<h1 style="text-align:center">Color Code Simulator</h1>
+<p style="margin-left:10px; color:black" ><strong>Insturctions:</strong> Using the Below Red, Blue and Green buttons, insert the desire RGB 
+values to generate your colour.
+Follow the Insturctions below to simulate color of desire color code.</p>
+<ul style="font-size:20px;color:black">
+<li>Choose increment scale in the scale pannel.</li>
+<li>Increase Red, Blue and  Green Ratio accordingly using the buttons.</li>
+<li>All the three color's intensity can go upto a maximum of 255.</li>
+<li>Varry the RGB value and get your desire colour.</li>
+</ul>
+</div>
+<div class="container1">
+<div id="scale">
+<button class="btn btn-warning"><strong>Scale Pannel</strong></button><br>
+<button class="btn" id="rate1" style="background-color:#DC143C">1</button>
+<button class="btn" id="rate5" style="background-color:#FFA07A">5</button>
+<button class="btn" id="rate10" style="background-color:#66CDAA">10</button>
+<button class="btn" id="rate50" style="background-color:#008080">50</button>
+<button class="btn" id="rate100" style="background-color:#B0C4DE">100</button>
+</div>
+
+<div class="container">
+<div class="square"></div>
+<h3 style="text-align:center;color:white"><strong>Color Code : rgb(<span id="red">0</span>,<span id="green">0</span>,<span id="blue">0</span>)</strong></h5>
+<div class="Buttons" id="colors">
+<button class="btn btn-danger" id="rr">Red</button>
+<button class="btn btn-success" id="gr">Green</button>
+<button class="btn btn-primary"id="bl">Blue</button>
+<button class="btn btn-info"id="get">Get Color</button>
+<button class="btn btn-warning"id="reset">Reset</button>
+
+</div>
+</div></div>
+
+
+<footer>
+<center>
+<p style="text-size:20px;color:white">Copyright ©Color Code Simulator.Developed By: Manan Mishra</p>
+</center>
+</footer>
+
+<script type="text/javascript" src="color.js"></script>
+ 
+</body>
+</html>
+
+
+</body>
+</html>

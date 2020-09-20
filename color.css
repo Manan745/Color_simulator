@@ -1,0 +1,62 @@
+body{
+	background-image:url("back.jpg");
+	
+}
+li{
+	color:black;
+
+}
+
+h1{
+	color:black;
+}
+
+.jumbotron{
+	background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.square{
+	
+	width:30%;
+	padding-bottom:30%;
+	background-color:white;
+	margin-left:35%;
+	margin-top: 15%;
+	border-radius:15%;
+}
+.container{
+	
+	max-width: 650px;
+}
+#colors{
+	text-align:center;
+	margin: 1%;
+	
+}
+
+#set{
+	display: inline-block;
+  font-size: 25px;
+  margin:0.5%;
+}
+#scale{
+	text-align:center;
+}
+.btn
+{
+	margin:0.5%;
+	font-size:20px;
+	border-radius=12px;
+	font-weight:bold;
+}
+footer{
+
+
+ margin-bottom:0px;
+ margin-top:100px;
+width: 100%
+}
+
+.container1{
+	background-color:rgba(0, 0, 0, 0.5);
+}
