@@ -143,7 +143,8 @@ blue.disabled=true;
 get.disabled=true;
 document.querySelector("#red").textContent=0;
 document.querySelector("#green").textContent=0;
-	document.querySelector("#blue").textContent=0;
+document.querySelector("#blue").textContent=0;
+square.style.backgroundColor="white";
 	
 	re.disabled=true
 	
